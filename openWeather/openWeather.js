@@ -1,11 +1,13 @@
 /**
  * Api consumo de estado del tiempo
- * 
+ * 'df28b8945435572c457b7b98e7ac21eb'
  * */
 const axios = require('axios');
 
 
-const apiKey = 'df28b8945435572c457b7b98e7ac21eb';
+
+
+const apiKey;
 
 const getWeather = async(city) => {
     const loc = encodeURI(city);

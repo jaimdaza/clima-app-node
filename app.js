@@ -1,10 +1,6 @@
 const lugar = require('./openWeather/openWeather');
 const argv = require('./config/yargs').argv;
 
-
-
-
-
 const loc = argv.direccion;
 
 lugar.getWeather(loc).then(data => {
